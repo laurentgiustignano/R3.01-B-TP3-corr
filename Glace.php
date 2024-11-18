@@ -25,4 +25,20 @@ class Glace {
     return $this->tarifParfum;
   }
 
+  public function ajoutParfum () : void {
+    $this->addition += $this->getTarifParfum ();
+  }
+
+  public function ajoutTopping () : void {
+    $this->addition += $this->getTarifTopping ();
+  }
+
+  public function ajoutCornet () : void {
+    $this->addition += $this->getTarifCornet ();
+  }
+
+  public function getAddition () : float {
+    return $this->addition;
+  }
+
 }

@@ -1,4 +1,8 @@
 <?php
+
+require_once 'devtools.php';
 require_once 'header.php';
-require_once 'formulaire.php';
+
+debug($_POST);
+
 require_once 'footer.php';

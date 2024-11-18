@@ -1,5 +1,5 @@
 
-  <form action="../app/serveur.php" method="post">
+  <form action="glacier.php" method="post">
     <fieldset>
       <legend>Parfums : 2 euros / choix</legend>
       <div class="form-check">

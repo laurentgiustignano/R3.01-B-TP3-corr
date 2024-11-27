@@ -1,7 +1,7 @@
 <?php
 
-require_once 'Glace.php';
-require_once 'devtools.php';
+require_once '../app/Glace.php';
+require_once '../app/devtools.php';
 require_once 'header.php';
 
 $glace = new Glace();
